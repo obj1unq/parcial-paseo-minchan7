@@ -115,6 +115,7 @@ describe "test de una familia que NO pasea" {
 	
 //PUNTO 6	
 test "salir de paseo ok" {
+		
 		familiaAptaSalir.pasear()
 		assert.equals(1.8 , mediaIzquierda.desgaste())
 		assert.equals(4.2 , mediaDerecha.desgaste())

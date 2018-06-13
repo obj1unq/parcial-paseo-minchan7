@@ -257,6 +257,7 @@ object m {
 }
 
 object l{
+	
 	method coincide(ninio){
 		return ninio.talle() == self
 	}
